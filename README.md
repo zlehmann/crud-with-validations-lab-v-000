@@ -38,11 +38,9 @@ Use the `resource` generator, **not** the `scaffold` generator
     documentation][link_to] for additional info including setting the `method:` to
     `:delete`.
 
-6.  Be sure to [include your new assets][assets] in `application.html.erb`
+6.  Use strong parameters in your POST/PATCH controller actions.
 
-7.  Use strong parameters in your POST/PATCH controller actions.
-
-8.  Set the root route to the song index.
+7.  Set the root route to the song index.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/crud-with-validations-lab' title='CRUD With Validations Lab'>CRUD With Validations Lab</a> on Learn.co and start learning to code for free.</p>
 
