@@ -1,7 +1,7 @@
 class SongsController < ApplicationController
   def index
     @songs = Song.all
-    binding.pry
+    render :index
   end
 
   def show
